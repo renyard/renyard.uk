@@ -9,8 +9,10 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Renyard</h1>
-        <p>House &amp; Techno DJ and promoter</p>
-        <p>London, United Kingdom</p>
+        <p>Underground House &amp; Techno DJ</p>
+        <p>
+          <span class="icon fa-map-marker"></span> London, United Kingdom
+        </p>
       </div>
     </div>
     <nav>
@@ -19,7 +21,7 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('bio')
             }}
           >
             Bio
@@ -29,20 +31,20 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('music')
             }}
           >
-            Work
+            Music
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('epk')
             }}
           >
-            About
+            EPK
           </a>
         </li>
         <li>
@@ -57,6 +59,44 @@ const Header = props => (
         </li>
       </ul>
     </nav>
+    <ul className="icons">
+      <li>
+        <a
+          href="https://twitter.com/renyarduk"
+          className="icon fa-twitter"
+          target="_blank"
+        >
+          <span className="label">Twitter</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://facebook.com/renyard"
+          className="icon fa-facebook"
+          target="_blank"
+        >
+          <span className="label">Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://instagram.com/renyarduk"
+          className="icon fa-instagram"
+          target="_blank"
+        >
+          <span className="label">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://soundcloud.com/renyard"
+          className="icon fa-soundcloud"
+          target="_blank"
+        >
+          <span className="label">Soundcloud</span>
+        </a>
+      </li>
+    </ul>
   </header>
 )
 

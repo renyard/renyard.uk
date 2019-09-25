@@ -22,8 +22,8 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="bio"
+          className={`${this.props.article === 'bio' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -33,60 +33,77 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            After buying his first set of decks in 2000, Renyard quickly started
+            playing house parties and bars. However, he really found his footing
+            in 2001 after teaming up with his twin brother to form Maverick DJs
+            for a weekly radio show playing House music on C4 Radio in
+            Canterbury.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            As part of Maverick DJs, Renyard played weekly residencies at
+            several club nights around Kent and in 2002 started playing regular
+            guest slots for Devious and the UK Weekender festivals. At these
+            events he played alongside some of the biggest names in dance music
+            including Judge Jules, Brandon Block, Lisa Lashes and Graham Gold.
+          </p>
+          <p>
+            In 2004 Renyard launched the Soirée club night to showcase Maverick
+            DJs eclectic taste in music, playing across the spectrum of House
+            music from Funky House to Techno with many of their own edits and
+            mash ups. He later invited Tim Green to become the third resident
+            and play his first House & Techno gigs after being impressed by his
+            original productions which would later be signed to labels such as
+            Cocoon and Dirty Bird.
+          </p>
+          <p>
+            Renyard has an eclectic taste in music having played many different
+            styles over the years. In 2010 he made the finals of a national DJ
+            competition by seamlessly mixing Rock & Indie with Dance Music and
+            being the only DJ in the competition to step outside of the
+            electronic music scene.
+          </p>
+          <p>
+            After taking a break from DJing for several years, Renyard returned
+            in 2017 to launch a new club night in Edinburgh called CTRL Z. This
+            night championed bass music including Bassline House, Drum & Bass
+            and Grime, which was a rarity in the city at the time. CTRL Z ran
+            through 2018 until Renyard left Edinburgh to return to London.
+          </p>
+          <p>
+            In 2019 Renyard is focused on House Music once again and celebrated
+            Soirée's 15th birthday with a one off event with Maverick DJs
+            playing an all night set for the first time together in 6 years. He
+            also played Ibiza for the first time with Wunderground and Ibiza
+            Club News.
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="music"
+          className={`${this.props.article === 'music' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
+          <h2 className="major">Music</h2>
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          </span> */}
+          <iframe
+            width="100%"
+            height="450"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/681385016&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="epk"
+          className={`${this.props.article === 'epk' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -140,28 +157,38 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/renyarduk"
                 className="icon fa-twitter"
+                target="_blank"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a
+                href="https://facebook.com/renyard"
+                className="icon fa-facebook"
+                target="_blank"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a
+                href="https://instagram.com/renyarduk"
+                className="icon fa-instagram"
+                target="_blank"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://soundcloud.com/renyard"
+                className="icon fa-soundcloud"
+                target="_blank"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Soundcloud</span>
               </a>
             </li>
           </ul>
