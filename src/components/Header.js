@@ -37,7 +37,7 @@ const Header = props => (
             Music
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="javascript:;"
             onClick={() => {
@@ -46,7 +46,7 @@ const Header = props => (
           >
             EPK
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="javascript:;"
