@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Renyard - House DJ & Promoter',
+    title: 'Renyard - House & Techno DJ',
     author: '',
-    description: '',
+    description: 'Renyard is a House & Techno DJ based in London',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
