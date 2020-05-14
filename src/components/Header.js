@@ -9,7 +9,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Renyard</h1>
-        <p>Underground House &amp; Techno DJ</p>
+        <p>Underground House &amp; Bass Music DJ</p>
         <p>
           <span class="icon fa-map-marker"></span> London, United Kingdom
         </p>
