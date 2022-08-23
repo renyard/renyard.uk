@@ -41,7 +41,7 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'London based House & Bass Music DJ' },
+              { name: 'description', content: 'London based Acid House DJ' },
               { name: 'keywords', content: '' },
             ]}
           >
