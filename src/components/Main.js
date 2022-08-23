@@ -76,6 +76,13 @@ class Main extends React.Component {
             also played Ibiza for the first time with Wunderground and Ibiza
             Club News.
           </p>
+          <p>
+            In 2020, Renyard relaunched the CTRL Z brand as a radio show with a
+            focus on modern Acid House. The show has recently celebrated it's
+            second birthday with a London event and is syndicated to Data
+            Transmission Radio, Ibiza Club Radio and Underground Kollektiv, as
+            well as being available as a podcast.
+          </p>
           {close}
         </article>
 
